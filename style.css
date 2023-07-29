@@ -1,0 +1,352 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.logo {
+  color: chartreuse;
+  margin-right: 10px;
+}
+/* -----------------service item----------------- */
+
+.meanu-item {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: aliceblue;
+  padding: 0px 25px;
+  /* border-radius: 10px; */
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.service-item {
+  display: flex;
+  align-items: center;
+  /* width: 50%; */
+  /* justify-content: space-evenly; */
+}
+
+.meanu-item li {
+  list-style: none;
+  /* justify-content: space-evenly; */
+  margin-right: 20px;
+}
+
+.meanu-item li:hover {
+  color: rgb(226, 231, 222);
+  background-color: brown;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.banner-item {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 0px 25px;
+}
+
+.banner-left {
+  width: 50%;
+}
+
+.banner-right {
+  width: 50%;
+}
+
+.img-banner {
+  width: 100%;
+}
+
+.top-banner-text {
+  color: brown;
+  font-weight: 700;
+  font-size: 20px;
+}
+.banner-title {
+  color: white;
+  font-weight: 800;
+  font-size: 30px;
+}
+
+.banner-text {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.banner-btn {
+  padding: 5px;
+  border: 2px solid brown;
+  width: 20%;
+  background-color: brown;
+  color: rgb(236, 240, 240);
+  border-radius: 10px;
+}
+
+.banner-btn:hover {
+  background-color: black;
+  color: white;
+}
+
+.arrow {
+  margin-right: 10px;
+}
+
+.feauter {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 50px 20px;
+}
+
+.gym {
+  height: 100px;
+  width: 150px;
+  text-align: center;
+  padding-left: 100px;
+}
+
+.card1 {
+  width: 30%;
+  border: 2px solid black;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(192, 4, 4, 0.2),
+    0 6px 20px 0 rgba(114, 11, 11, 0.19);
+  border-radius: 10px;
+}
+
+.card2 {
+  width: 30%;
+  border: 2px solid black;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+}
+
+.card3 {
+  width: 30%;
+  border: 2px solid black;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+}
+.look {
+  text-align: center;
+  font-weight: 800;
+  font-size: 40px;
+  color: brown;
+}
+
+.card1:hover {
+  border: 2px solid brown;
+  margin-top: -20px;
+  transition: 1s;
+  background-color: rgb(13, 13, 14);
+  color: white;
+}
+
+.card2:hover {
+  border: 2px solid rgb(89, 42, 165);
+  margin-top: -20px;
+  transition: 1s;
+  background-color: rgb(13, 13, 14);
+  color: white;
+}
+
+.card3:hover {
+  border: 2px solid rgb(42, 165, 52);
+  margin-top: -20px;
+  transition: 1s;
+  background-color: rgb(13, 13, 14);
+  color: white;
+}
+
+.gym {
+  color: white;
+
+  width: fit-content;
+}
+a {
+  text-decoration: none;
+}
+
+.about-title {
+  text-align: center;
+  font-weight: 800;
+  font-size: 40px;
+  color: brown;
+}
+
+.about-items {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+}
+
+.workout-img {
+  display: flex;
+  margin-top: 30px;
+}
+.workout-img img {
+  width: 300px;
+  height: 550px;
+  transform: skewY(-15deg);
+  padding-top: 20px;
+}
+.about-left {
+  width: 50%;
+  margin-right: 50px;
+}
+
+.about-right {
+  width: 50%;
+  margin-right: 50px;
+}
+
+.about-describe {
+  width: 100%;
+}
+.brown {
+  border: 1px solid brown;
+  margin-top: -20px;
+}
+
+.white {
+  border: 1px solid rgb(75, 56, 56);
+  margin-top: -20px;
+}
+
+.love-item {
+  display: flex;
+}
+.one-love hr {
+  width: 50%;
+}
+
+.another-love {
+  width: 50%;
+}
+
+.box-chat {
+  display: flex;
+  background-image: url(images/shape/Group_33094_1.png);
+  justify-content: center;
+  height: 300px;
+  width: 550px;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  margin: 50px auto;
+}
+
+.box-title {
+  margin-right: 30px;
+  color: white;
+  font-weight: 800;
+}
+
+.btn-lets {
+  padding: 15px 30px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.btn-lets:hover {
+  background-color: rgb(212, 101, 10);
+  color: white;
+  border: 1px solid brown;
+  transition: 1s;
+}
+
+.our-services {
+  text-align: center;
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.img-gym {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.fitness-text {
+  color: red;
+  margin-right: 7px;
+}
+
+.siraj {
+  margin-left: 7px;
+}
+
+.price-join {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 2px solid brown; */
+}
+
+.services {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.service1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 10px;
+  border-radius: 5px;
+}
+.batch {
+  position: relative;
+}
+.batch-img {
+  width: 70px;
+  height: 70px;
+  top: -30px;
+  position: absolute;
+  left: 240px;
+}
+
+.service1:hover {
+  background-color: black;
+  color: white;
+  transition: 1s;
+}
+
+.img-service {
+  width: 100%;
+}
+
+.two-part a {
+  text-align: center;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.footer-item {
+  text-align: center;
+}
+
+.footer {
+  margin: 50px auto;
+}
+
+.two-part a:focus {
+  color: green;
+}
+
+.two-part a:hover {
+  color: brown;
+}
+
+.margin-footer {
+  width: 50%;
+  color: brown;
+  border: 1px solid brown;
+  margin: 20px auto;
+}
